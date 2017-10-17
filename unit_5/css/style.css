@@ -112,18 +112,17 @@ a {
 	border-bottom: 1px solid #091621;
 }
 .buttonlink {
-	width: 400px;
+	width: 200px;
 	color: #ffffff;
 	background-color: #8ea1a5;
-	display: block;
-	margin: 2px 0;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	display: inline block;
+	margin: 2px;
+	padding: 30px;
+	padding: 30px;
 	font-weight: bold;
 	font-size: 1.5em;
 	font-family: 'Roboto', Helvetica, sans-serif;
-	font-weight: 500;
-	
+	font-weight: 500;	
 }
 .buttonlink:hover {
 	background-color: #c1b6a2;
