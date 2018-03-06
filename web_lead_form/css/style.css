@@ -1,0 +1,76 @@
+form {
+  max-width: 400px;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 90%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: tomato;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 95%;
+  border: 1px solid tomato;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+
+h2 {
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: .125em;
+    text-transform: uppercase;
+    font-weight: 900;
+    border: 0;
+    color: #000;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    width: 100%;	
+}
+
+label {
+	font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*letter-spacing: .125em;*/
+    font-weight: 400;
+    border: 0;
+    color: #000;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    width: 100%;	
+}
